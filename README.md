@@ -12,10 +12,10 @@ Awesome Looking Bubble Game Website
 ## ✨ Screenshots of Web-application:
 
 Static Page(HTML + CSS)
-![Bubble-Game Home Page](screenshots\bubble-game.PNG)
+![Bubble-Game Home Page](https://github.com/iamvatsalpanchal/bubble-game-website/blob/main/screenshots/bubble-game.PNG)
 
 Game Starts
-![Start Page](screenshots\fincalscorecard.PNG)
+![Start Page](https://github.com/iamvatsalpanchal/bubble-game-website/blob/main/screenshots/fincalscorecard.PNG)
 
 End Page
-![GameOverPage](screenshots\gameover.PNG)
+![GameOverPage](https://github.com/iamvatsalpanchal/bubble-game-website/blob/main/screenshots/gameover.PNG)
