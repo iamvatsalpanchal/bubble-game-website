@@ -27,3 +27,80 @@ html, body{
     height: 100%;
     width: 100%;
 }
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(131, 183, 209);
+}
+
+#panel1{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#ptop{
+    width: 100%;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 25%;
+    background-color:rgb(68, 130, 162);
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.elem h2{
+    font-weight: 500;
+}
+
+.box{
+    padding: 10px 20px;
+    color: rgb(54, 117, 142);
+    font-weight: 700;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+#pbtm{
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap ka matlb hota hai ki agli line pe mat lana; by-default no-wrap hota hai. and wrap krne se new line pe elements ane lagenge */
+    display: flex;
+    gap: 20px;
+    height: calc(100% - 100px);
+}
+
+.bubble {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color:rgb(68, 130, 162);
+    color: #fff;
+    font-weight: 500;
+}
+
+.bubble:hover{
+    background-color: rgb(30, 94, 119);
+    cursor: pointer;
+}
